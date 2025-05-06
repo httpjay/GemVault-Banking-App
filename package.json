@@ -1,0 +1,18 @@
+{
+  "name": "bank_project",
+  "version": "1.0.0",
+  "description": "Welcome to **Secure Bank**, a security-focused web application built with Flask. This app simulates online banking functionality while integrating modern security best practices to defend against common web vulnerabilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.5"
+  }
+}
