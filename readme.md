@@ -136,27 +136,46 @@ Developed by **Jay A Panchal** as part of a Secure Software Development course a
 ---
 
 ## ✨ Screenshots
-
-## 🔐 Login Page
-<img src="screenshots/login.png" alt="Login Page" width="500"/>
+## 🔐 Login Page  
+<img src="screenshots/login.png" alt="Login Page" width="500"/>  
 A beautifully styled login form with OTP-based authentication and CSRF protection.
 
-## 💎 Dashboard
-<img src="screenshots/Dashboard.png" alt="Dashboard" width="500"/>
+## 💎 Dashboard  
+<img src="screenshots/Dashboard.png" alt="Dashboard" width="500"/>  
 Displays user's account type, balance, and secure links to transfer funds or view details.
 
-## 🔍 Account Details
-<img src="screenshots/details.png" alt="Account Details" width="500"/>
+## 🧾 Account Details  
+<img src="screenshots/details.png" alt="Account Details" width="500"/>  
 Securely shows account number and balance. Page is protected against user enumeration and SQL injection.
 
-## 🔄 Transfer Funds
-<img src="screenshots/transfer.png" alt="Transfer Funds" width="500"/>
+## 💸 Transfer Funds  
+<img src="screenshots/transfer.png" alt="Transfer Funds" width="500"/>  
 Lets users move funds between accounts with real-time validation and secure checks.
 
-## 🔁 OTP Verification
-<img src="screenshots/Verify_OTP.png" alt="Verify OTP" width="500"/>
+## 📩 Email OTP  
+<img src="screenshots/Email_OTP.png" alt="Email OTP" width="500"/>  
+Displays the one-time password sent to the user's email during login for MFA verification.
+
+## 🔁 OTP Verification  
+<img src="screenshots/Verify_OTP.png" alt="Verify OTP" width="500"/>  
 MFA system with 6-digit OTP emailed on login—adds a strong security layer.
 
-## 🔑 Forgot Password
-<img src="screenshots/Forgot_Password.png" alt="Forgot Password" width="500"/>
+## 🔐 Forgot Password  
+<img src="screenshots/Forgot_Password.png" alt="Forgot Password" width="500"/>  
 Password reset system with tokenized email link and secure update process.
+
+## 📝 Registration Page  
+<img src="screenshots/Register.png" alt="Register" width="500"/>  
+A sign-up form that stores hashed passwords, checks for email duplication, and includes MFA setup.
+
+## 💰 Getting Fund Page  
+<img src="screenshots/Getting_Fund.png" alt="Getting Fund" width="500"/>  
+A UI to simulate funds being credited to the account—used for testing secure balance updates.
+
+## 🔄 Before Transfer  
+<img src="screenshots/Before_transfer.png" alt="Before Transfer" width="500"/>  
+Screenshot taken before funds are transferred, showing initial balances of sender and receiver.
+
+## ✅ After Transfer  
+<img src="screenshots/After_transfer.png" alt="After Transfer" width="500"/>  
+Screenshot taken after a successful transfer—verifies balance updates and secure transaction logic.
