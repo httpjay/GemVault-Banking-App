@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 text-gray-800 font-sans">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | GemVault</title>
+  <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 text-gray-800">
+  <div class="bg-white rounded-xl shadow-2xl p-8 w-full max-w-2xl">
+    <div class="mb-6 text-center">
+      <h1 class="text-3xl font-bold">💎 Welcome, {{ user }}!</h1>
+      <p class="text-sm text-gray-600 mt-1">Username: <strong>{{ username }}</strong></p>
+    </div>
+
+    <div>
+      <h2 class="text-xl font-semibold mb-4 text-purple-700">Your Accounts:</h2>
+      <ul class="space-y-2">
+        {% for acc in accounts %}
+          <li class="bg-purple-100 rounded-lg px-4 py-2 flex justify-between items-center">
+            <span>{{ acc[1].capitalize() }} Account ({{ acc[0] }})</span>
+            <a href="/details?account={{ acc[0] }}" class="text-sm text-purple-700 hover:underline">View Details</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="mt-8 flex justify-between">
+      <a href="/transfer" class="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition">💸 Make a Transfer</a>
+      <a href="/logout" class="text-red-500 hover:underline">🚪 Logout</a>
+    </div>
+  </div>
+</body>
+</html>
