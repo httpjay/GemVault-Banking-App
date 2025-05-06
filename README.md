@@ -115,7 +115,7 @@ Check your inbox for a 6-digit OTP after login.
 
 ## 💼 Credits
 
-Developed by **Jay A Panchal** as part of a Secure Software Development course at Loyola Marymount University. Inspired by best practices taught in-class and OWASP recommendations.
+Developed by **Jay A Panchal & Jil P Makwana** as part of a Secure Software Development course at Loyola Marymount University. Inspired by best practices taught in-class and OWASP recommendations.
 
 ---
 
