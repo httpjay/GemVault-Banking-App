@@ -154,7 +154,7 @@ Securely shows account number and balance. Page is protected against user enumer
 Lets users move funds between accounts with real-time validation and secure checks.
 
 ## 🔁 OTP Verification
-<img src="screenshots/verify_otp.png" alt="Verify OTP" width="500"/>
+<img src="screenshots/verify_otp.png" alt="Verify_OTP" width="500"/>
 MFA system with 6-digit OTP emailed on login—adds a strong security layer.
 
 ## 🔑 Forgot Password
