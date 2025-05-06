@@ -137,4 +137,26 @@ Developed by **Jay A Panchal** as part of a Secure Software Development course a
 
 ## ✨ Screenshots
 
-*(Add screenshots here if available)*
+## 🔐 Login Page
+<img src="screenshots/login.png" alt="Login Page" width="500"/>
+A beautifully styled login form with OTP-based authentication and CSRF protection.
+
+## 💎 Dashboard
+<img src="screenshots/dashboard.png" alt="Dashboard" width="500"/>
+Displays user's account type, balance, and secure links to transfer funds or view details.
+
+## 🔍 Account Details
+<img src="screenshots/details.png" alt="Account Details" width="500"/>
+Securely shows account number and balance. Page is protected against user enumeration and SQL injection.
+
+## 🔄 Transfer Funds
+<img src="screenshots/transfer.png" alt="Transfer Funds" width="500"/>
+Lets users move funds between accounts with real-time validation and secure checks.
+
+## 🔁 OTP Verification
+<img src="screenshots/verify_otp.png" alt="Verify OTP" width="500"/>
+MFA system with 6-digit OTP emailed on login—adds a strong security layer.
+
+## 🔑 Forgot Password
+<img src="screenshots/forgot_password.png" alt="Forgot Password" width="500"/>
+Password reset system with tokenized email link and secure update process.
