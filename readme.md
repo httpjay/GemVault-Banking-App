@@ -142,7 +142,7 @@ Developed by **Jay A Panchal** as part of a Secure Software Development course a
 A beautifully styled login form with OTP-based authentication and CSRF protection.
 
 ## 💎 Dashboard
-<img src="screenshots/dashboard.png" alt="Dashboard" width="500"/>
+<img src="screenshots/Dashboard.png" alt="Dashboard" width="500"/>
 Displays user's account type, balance, and secure links to transfer funds or view details.
 
 ## 🔍 Account Details
