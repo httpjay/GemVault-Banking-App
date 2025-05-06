@@ -158,5 +158,5 @@ Lets users move funds between accounts with real-time validation and secure chec
 MFA system with 6-digit OTP emailed on login—adds a strong security layer.
 
 ## 🔑 Forgot Password
-<img src="screenshots/forgot_password.png" alt="Forgot Password" width="500"/>
+<img src="screenshots/Forgot_Password.png" alt="Forgot Password" width="500"/>
 Password reset system with tokenized email link and secure update process.
